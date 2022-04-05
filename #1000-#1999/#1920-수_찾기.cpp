@@ -13,13 +13,12 @@ int main() {
 		scanf("%d", numbers + i);
 	
 	std::sort(numbers, numbers + N);
-	
 	scanf("%d", &M);
 	
 	for (int i=0; i<M; i++) {
 		scanf("%d", &num);
 		start = 0;
-		end = N;
+		end = N - 1;
 		mid = N / 2;
 		found = 0;
 		
